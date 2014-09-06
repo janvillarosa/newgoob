@@ -1,0 +1,19 @@
+@import "compass";
+
+@import "vars/bootstrap";
+@import "vars/opencart";
+
+
+@import "mixins/bootstrap";
+@import "mixins/app";
+.box.producttabs{
+
+}
+.producttabs .tab-nav{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0 2px;
+}
+.box.producttabs .nav{
+	margin: 0 auto;
+}	

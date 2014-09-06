@@ -1,0 +1,231 @@
+ 
+/* block */
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;   
+    border: 1px solid $block-module-border-color;  
+    background-color:$white; 
+    position: relative;
+    overflow: hidden;
+    @include box-shadow(0 2px 2px rgba(0,0,0,.07));
+    .#{$block-heading-selector}{
+        color: $block-module-heading-color;
+        position: relative;                                                             
+        text-transform: $block-module-heading-transform;
+        font-family: $block-module-heading-font-family;    
+        padding: $block-module-heading-padding;         
+        font-size: $block-module-heading-font-size;
+        text-align: center;
+        span{
+           position: relative;
+           display: inline-block;
+            &:before{
+                background:url('#{$image-theme-base-path}icon-bulet.png') 0 0 no-repeat;
+                position: absolute;
+                @include size(14px,14px);
+                top: 5px;
+                content:"";
+                left: -20px;
+            }
+            &:after{
+                background:url('#{$image-theme-base-path}icon-bulet.png') 0 0 no-repeat;
+                position: absolute;
+                @include size(14px,14px);
+                top: 5px;
+                content:"";
+                right: -20px;
+            }
+        } 
+    }
+    .#{$block-content-selector} {        
+        /*padding: $block-module-content-padding;*/
+        @include rounded-corners ($block-module-content-radius);
+        padding: 20px;
+        @include clearfix();
+     
+    }
+    /* block styles */  
+    &.nopadding{
+        .#{$block-content-selector}{
+            padding:0;
+            margin: 0;
+        }
+    }
+}
+
+
+// Contextual variations
+.#{$block-prefix}-theme {
+  @include block-variant($panel-default-border, $white, $theme-color, $panel-default-border);
+}
+.#{$block-prefix}-default {
+  @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+}
+.#{$block-prefix}-primary {
+  @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+.#{$block-prefix}-success {
+  @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+}
+.#{$block-prefix}-info {
+  @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+}
+.#{$block-prefix}-warning {
+  @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+}
+.#{$block-prefix}-danger {
+  @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+}
+
+.#{$block-prefix}-highlighted {
+    @include block-variant($theme-color-default, $white, $theme-color-default, $theme-color);
+    .#{$block-content-selector}{ 
+        border-color:$theme-color-default;
+        border-width:2px;
+    }    
+}
+
+/* block inline style */
+.#{$block-prefix}-inline{
+    .icon{
+        font-size: 35px;
+    }
+    .explain{
+        font-size:  11px;
+    }
+    .#{$block-content-selector}{
+        color: $white;
+        position: relative;                                                             
+        text-transform: $block-module-heading-transform;
+        font-family: $block-module-heading-font-family;    
+             
+        font-size: $block-module-heading-font-size;
+    }  
+    .input-group{
+        width: 98%
+    }   
+}
+ 
+.sidebar {
+    .#{$app-brand-prefix}-custom {
+       border:none;
+       .#{$block-prefix}-heading {
+            border:none;
+            background:$theme-color;
+            font-size: $font-size-base + 5;
+            text-align: center;
+
+        }
+        .#{$block-prefix}-content{
+            border:none;
+        }
+    }
+    .#{$block-prefix}-heading {
+            padding: 20px 40px;
+            border-bottom: 1px solid $border-color;
+            border-top:3px solid $black;
+
+
+             &:after{
+                content: "";
+                position: absolute;
+                bottom: 48%;
+                 @include rtl_right(30px);
+                width: 10px;
+                background: $black;
+                height: 3px;
+            }
+            span{
+                &:after,&:before{
+                    background: none;
+                }
+            }
+    }  
+}    
+
+/* block style in main content */
+#content{
+    .#{$app-brand-prefix}-custom {
+        .#{$block-content-selector} {
+            border:none;
+            background:none;
+            color:$block-module-footer-heading-color;
+        }
+        .#{$block-content-selector}{
+            border:none;
+        }
+    }     
+    .#{$block-content-selector}{
+        padding:0;
+        margin: 0;
+    }
+}
+
+/* block style in footer */
+#footer{
+    .#{$block-prefix} {
+        background: $nocolor;
+        @include box-shadow(none);
+        .#{$block-heading-selector}{
+            span{
+            }
+        }
+         .#{$block-content-selector}{
+            border:none;
+            padding:0
+        }
+    }
+}
+.footer-center{
+    .#{$block-prefix} {
+        padding: 50px 0 10px;
+        .#{$block-heading-selector}{
+            @include rtl-text-align-left();
+            padding: 0 0 20px;
+            color: $white;            
+            span{
+                &:after,&:before{
+                    background: none;
+                }
+            }
+        }
+        .#{$block-content-selector}{
+        }
+    }
+}
+.footer-bottom{
+    .#{$block-prefix} {
+        padding: 30px 0 10px;
+        .#{$block-heading-selector}{
+            @include rtl-text-align-left();
+            padding: 0 0 10px;
+            color: $white;            
+            span{
+                &:after,&:before{
+                    background: none;
+                }
+            }
+        }
+        .#{$block-content-selector}{
+        }
+    }
+}
+.fixed-footer{
+    .#{$block-prefix} {
+        margin-bottom: 0;
+        border:none;
+        background: $nocolor;
+        .#{$block-heading-selector}{
+            border:none;
+            background:none;
+            color: $white;
+            padding: 30px 0 0;
+            font-size: $font-size-base + 5;
+            font-weight: 100;
+            @include rtl-text-align-left();
+        }
+         .#{$block-content-selector}{
+            border:none;
+            padding:0
+        }
+    }
+}

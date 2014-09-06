@@ -1,0 +1,57 @@
+
+/* customize for body */ 
+
+/* customize for topbar */ 
+
+/* customize for pav-mainnav */ 
+#pav-mainnav .dropdown-menu { background-image:url(../../image/pattern/pattern2.png)} 
+
+/* customize for footer-top */ 
+#pavo-footer-top, #pavo-footer-top, #pavo-footer-top .container { background-image:url(../../image/pattern/pattern10.png)} 
+
+				#pavo-footer-top,#pavo-footer-top .box .box-heading,#pavo-footer-top .pav-newsletter .description		
+			 { color:#177535} 
+
+/* customize for footer-center */ 
+#pavo-footer-center { background-image:url(../../image/pattern/pattern10.png)} 
+
+/* customize for footer-bottom */ 
+#pavo-footer-bottom { background-image:url(../../image/pattern/pattern10.png)} 
+
+				.footer-bottom .box .box-heading			
+			 { color:#1d4291} 
+
+/* customize for powered */ 
+
+/* customize for product */ 
+
+				.btn-shopping-cart span
+			 { color:#f200f2} 
+
+				.btn.btn-shopping-cart
+			 { background-color:#87bd2a} 
+
+				.btn-shopping-cart .fa
+			 { color:#0f22fa} 
+
+				.btn-shopping-cart .fa
+			 { background-color:#5c4201} 
+
+				.btn, .product-block .action  div a
+			 { border-color:#1e00ff} 
+
+				.compare a
+			 { background-color:#b6a1f5} 
+
+				.compare a .fa
+			 { color:#f01a77} 
+
+				.wishlist a
+			 { background-color:#fa93fa} 
+
+				.wishlist a .fa
+			 { color:#3b003b} 
+
+				.product-label
+			 { background:#e61ee6} 
+.product-label-special { color:#290629} 

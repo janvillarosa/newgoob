@@ -1,0 +1,70 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+.content .wapper {
+  border-right: 1px solid #ebebeb;
+  margin: 0;
+  padding: 20px;
+  overflow: inherit;
+}
+.rtl .content .wapper {
+  border-left: 1px solid #ebebeb;
+  border-right: inherit;
+}
+.content .wapper > div {
+  float: left;
+}
+.rtl .content .wapper > div {
+  float: right;
+}
+.content .box .box-heading {
+  margin-right: 25px;
+  padding: 6px 40px;
+}
+.rtl .content .box .box-heading {
+  margin-left: 25px;
+  margin-right: inherit;
+}
+.content .title {
+  font-size: 19px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.content .input-form input {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #999999;
+  font-size: 11px;
+  background: url("../image/icon-mail.png") 10px no-repeat #f4f4f4;
+  padding-left: 30px;
+}
+.content .btn-submit {
+  margin-top: 10px;
+}
+.content .valid {
+  position: absolute;
+  right: 74px;
+  top: -39px;
+  width: 58%;
+}
+.rtl .content .valid {
+  left: 74px;
+  right: auto;
+}

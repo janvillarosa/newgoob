@@ -1,0 +1,390 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 7, ../development/scss/pavblog.scss */
+.pav-header {
+  position: relative;
+}
+/* line 9, ../development/scss/pavblog.scss */
+.pav-header .rss-wrapper {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  text-indent: -999em;
+}
+
+/* line 21, ../development/scss/pavblog.scss */
+.blog-meta {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+/* line 24, ../development/scss/pavblog.scss */
+.blog-meta > span {
+  font-weight: bold;
+  display: block;
+  float: left;
+  padding: 0 10px 0 0;
+}
+/* line 29, ../development/scss/pavblog.scss */
+.blog-meta > span:last-child {
+  border-right: none;
+}
+/* line 32, ../development/scss/pavblog.scss */
+.blog-meta > span span {
+  font-weight: normal;
+}
+/* line 35, ../development/scss/pavblog.scss */
+.blog-meta > span i {
+  margin: 0 5px 0 0;
+}
+
+/* line 42, ../development/scss/pavblog.scss */
+.pav-comment label {
+  display: block;
+}
+/* line 45, ../development/scss/pavblog.scss */
+.pav-comment input[type="text"] {
+  width: 50%;
+}
+
+/* line 51, ../development/scss/pavblog.scss */
+.blog-header .created {
+  display: block;
+  overflow: hidden;
+  height: auto;
+  padding: 10px;
+  color: #FFF;
+  float: left;
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  margin: 0;
+}
+/* line 64, ../development/scss/pavblog.scss */
+.blog-header span {
+  font-size: 12px;
+}
+/* line 65, ../development/scss/pavblog.scss */
+.blog-header span.day {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+/* line 76, ../development/scss/pavblog.scss */
+#blog-info .blog-title {
+  overflow: hidden;
+  margin: 10px 0;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+/**
+ * Category Page
+ */
+/* line 87, ../development/scss/pavblog.scss */
+div[class*="pavcol"] {
+  float: left;
+}
+
+/* line 91, ../development/scss/pavblog.scss */
+.pavcol1 {
+  width: 100%;
+}
+
+/* line 95, ../development/scss/pavblog.scss */
+.pavcol2 {
+  width: 50%;
+}
+
+/* line 99, ../development/scss/pavblog.scss */
+.pavcol3 {
+  width: 33.33%;
+}
+
+/* line 103, ../development/scss/pavblog.scss */
+.pavcol4 {
+  width: 25%;
+}
+
+/* line 107, ../development/scss/pavblog.scss */
+.pavcol5 {
+  width: 20%;
+}
+
+/* line 111, ../development/scss/pavblog.scss */
+.blog-item {
+  padding-bottom: 0px;
+}
+
+/* line 115, ../development/scss/pavblog.scss */
+.btn-more-link {
+  margin: 10px 0 20px 0;
+}
+
+/* line 119, ../development/scss/pavblog.scss */
+.pav-blogs .blog-title a {
+  text-decoration: none;
+  color: #111111;
+}
+/* line 122, ../development/scss/pavblog.scss */
+.pav-blogs .blog-title a:hover {
+  color: #111111;
+}
+
+/**
+* Blog Page
+*/
+/* line 132, ../development/scss/pavblog.scss */
+.pav-blogs .blog-item {
+  padding-bottom: 5px;
+  margin: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 137, ../development/scss/pavblog.scss */
+.pav-blogs .description {
+  font-weight: normal;
+}
+/* line 140, ../development/scss/pavblog.scss */
+.pav-blogs .blog-content, .pav-blogs .blog-bottom {
+  margin-bottom: 20px;
+}
+
+/* line 145, ../development/scss/pavblog.scss */
+.comment-item {
+  padding-bottom: 10px;
+}
+/* line 147, ../development/scss/pavblog.scss */
+.comment-item img {
+  padding-right: 12px;
+}
+
+/* line 152, ../development/scss/pavblog.scss */
+.comment-wrap {
+  overflow: hidden;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E2E2E2;
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+/* line 163, ../development/scss/pavblog.scss */
+.comment-wrap .comment-meta {
+  border-bottom: 1px solid #E2E2E2;
+  font-size: 11px;
+  margin: -20px -20px 10px;
+  padding: 10px 20px;
+}
+
+/* line 171, ../development/scss/pavblog.scss */
+.blog-tags, .blog-social {
+  margin-bottom: 10px;
+}
+
+/* line 175, ../development/scss/pavblog.scss */
+.comment-wrap .comment-meta > span {
+  font-weight: bold;
+}
+/* line 177, ../development/scss/pavblog.scss */
+.comment-wrap .comment-meta > span span {
+  font-weight: normal;
+}
+
+/* line 183, ../development/scss/pavblog.scss */
+.blog-social .social-wrap > div {
+  float: left;
+}
+/* line 186, ../development/scss/pavblog.scss */
+.blog-social .social-heading {
+  padding-right: 12px;
+}
+
+/* line 191, ../development/scss/pavblog.scss */
+.comment-link {
+  background: none repeat scroll 0 0 #F4F4F4;
+  border-left: 1px solid #E2E2E2;
+  display: block;
+  float: right;
+  font-weight: bold;
+  margin: -11px -20px -10px 0;
+  padding: 10px 20px;
+}
+
+/* line 202, ../development/scss/pavblog.scss */
+#comment-form .message {
+  background: #FCF8E3;
+  padding: 12px;
+  color: #000;
+  margin-bottom: 12px;
+  line-height: 30px;
+}
+/* line 209, ../development/scss/pavblog.scss */
+#comment-form .comment-warning {
+  color: #b94a48;
+}
+
+/**
+* Module
+*/
+/* line 219, ../development/scss/pavblog.scss */
+.pavblogs-comments-box .pav-comment {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E2E2E2;
+}
+/* line 222, ../development/scss/pavblog.scss */
+.pavblogs-comments-box .pav-comment:last-child {
+  border-bottom: none;
+}
+
+/* line 228, ../development/scss/pavblog.scss */
+.blog-list-item {
+  margin-bottom: 0;
+}
+
+/* line 233, ../development/scss/pavblog.scss */
+.secondary.blog-list-item {
+  margin-bottom: 0;
+}
+/* line 236, ../development/scss/pavblog.scss */
+.secondary .col-lg-3 .blog-title, .secondary .col-lg-4 .blog-title, .secondary .col-lg-6 .blog-title {
+  font-size: 112%;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+/* line 243, ../development/scss/pavblog.scss */
+.pav-pagination {
+  margin: 0;
+  text-align: right;
+}
+/* line 246, ../development/scss/pavblog.scss */
+.pav-pagination .results {
+  padding-top: 0;
+}
+
+/* line 251, ../development/scss/pavblog.scss */
+#input-captcha {
+  margin: 10px 0;
+  width: 20%;
+}
+
+/* line 256, ../development/scss/pavblog.scss */
+.buttons-wrap.right {
+  text-align: right;
+}
+
+/* line 260, ../development/scss/pavblog.scss */
+.sample-blog-category > li {
+  line-height: 30px;
+}
+
+/* line 264, ../development/scss/pavblog.scss */
+.sub-description {
+  margin: 15px 0;
+}
+
+/* line 268, ../development/scss/pavblog.scss */
+.box.latest_blog {
+  background: none;
+  text-transform: uppercase;
+}
+/* line 271, ../development/scss/pavblog.scss */
+.box.latest_blog .blog-item {
+  background: white;
+}
+/* line 274, ../development/scss/pavblog.scss */
+.box.latest_blog .product-col {
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  /* height: 738px; */
+}
+/* line 279, ../development/scss/pavblog.scss */
+.box.latest_blog .product-col .blog-body {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 282, ../development/scss/pavblog.scss */
+.box.latest_blog .product-col .blog-body:hover {
+  background-color: #111111;
+  color: #666666;
+}
+/* line 286, ../development/scss/pavblog.scss */
+.box.latest_blog .product-col .blog-body:hover .blog-title a {
+  color: #c8c8c8;
+}
+/* line 293, ../development/scss/pavblog.scss */
+.box.latest_blog .product-col:nth-child(2n) .image {
+  /*  position: absolute;
+         bottom: 0; */
+}
+/* line 297, ../development/scss/pavblog.scss */
+.box.latest_blog .product-col:nth-child(2n) .blog-body {
+  /*  position: absolute;
+  top: 0;   */
+}
+
+/* line 305, ../development/scss/pavblog.scss */
+.pavblog-latest .blog-title {
+  height: 30px;
+  overflow: hidden;
+}
+/* line 308, ../development/scss/pavblog.scss */
+.pavblog-latest .blog-title a {
+  color: #000;
+  font-size: 24px;
+  font-family: "brandon-light", sans-serif;
+}
+/* line 314, ../development/scss/pavblog.scss */
+.pavblog-latest .created {
+  color: #aaaaaa;
+  font-size: 10px;
+}
+/* line 318, ../development/scss/pavblog.scss */
+.pavblog-latest .blog-body {
+  padding: 20px 50px;
+  text-align: center;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+/* line 325, ../development/scss/pavblog.scss */
+.pavblog-latest .blog-item .description {
+  overflow: hidden;
+  padding: 20px 0 10px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+/* line 333, ../development/scss/pavblog.scss */
+.pav-blog .image {
+  padding-bottom: 15px;
+}

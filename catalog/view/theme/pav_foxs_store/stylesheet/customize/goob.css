@@ -1,0 +1,89 @@
+
+/* customize for #topbar */ 
+#topbar { 
+background-color:#940f0f 
+} 
+
+/* customize for #topbar,#topbar .btn-dropdown span */ 
+#topbar,#topbar .btn-dropdown span { 
+color:#ffffff 
+} 
+
+/* customize for #topbar a,#topbar .links  a,#cart .media a */ 
+#topbar a,#topbar .links  a,#cart .media a { 
+color:#ffffff 
+} 
+
+/* customize for #topbar .fa,#topbar .btn.btn-theme-normal .fa,#cart .media a .cart */ 
+#topbar .fa,#topbar .btn.btn-theme-normal .fa,#cart .media a .cart { 
+color:#ffffff 
+} 
+
+/* customize for #topbar.topbar-v1 .container .inner */ 
+#topbar.topbar-v1 .container .inner { 
+border-color:#940000 
+} 
+
+/* customize for .main-menu,.main-menu.mainnav-v1, .main-menu.mainnav-v2, #pav-mainnav,#pav-mainnav .navbar-default */ 
+.main-menu,.main-menu.mainnav-v1, .main-menu.mainnav-v2, #pav-mainnav,#pav-mainnav .navbar-default { 
+background-color:#bd0000 
+} 
+
+/* customize for .pav-megamenu .navbar-nav li a */ 
+.pav-megamenu .navbar-nav li a { 
+color:#ffffff 
+} 
+
+/* customize for #pav-mainnav .dropdown-menu */ 
+#pav-mainnav .dropdown-menu { 
+background-color:#ffffff
+} 
+
+#pav-mainnav .dropdown-menu li a{ 
+color:#000000
+} 
+
+/* customize for 
+				.btn-shopping-cart span
+			 */ 
+
+				.btn-shopping-cart span
+			 { 
+color:#ffffff 
+} 
+
+/* customize for 
+				.btn.btn-shopping-cart
+			 */ 
+
+				.btn.btn-shopping-cart
+			 { 
+background-color:#ab0707 
+} 
+
+/* customize for 
+				.compare a .fa
+			 */ 
+
+				.compare a .fa
+			 { 
+color:#33ff00 
+} 
+
+/* customize for 
+				.wishlist a .fa
+			 */ 
+
+				.wishlist a .fa
+			 { 
+color:#ff0000 
+} 
+
+/* customize for 
+				.product-label
+			 */ 
+
+				.product-label
+			 { 
+background:1096de 
+} 

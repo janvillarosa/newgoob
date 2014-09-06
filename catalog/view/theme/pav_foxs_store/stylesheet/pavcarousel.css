@@ -1,0 +1,69 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 9, ../development/scss/pavcarousel.scss */
+.pavcarousel {
+  position: relative;
+}
+/* line 11, ../development/scss/pavcarousel.scss */
+.pavcarousel .item {
+  padding-top: 15px;
+}
+/* line 14, ../development/scss/pavcarousel.scss */
+.pavcarousel .item-inner {
+  text-align: center;
+  border: 1px solid transparent;
+}
+/* line 17, ../development/scss/pavcarousel.scss */
+.pavcarousel .item-inner:hover {
+  border: 1px solid #ccc;
+}
+/* line 21, ../development/scss/pavcarousel.scss */
+.pavcarousel .carousel-controls {
+  top: 60%;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  display: none;
+}
+/* line 27, ../development/scss/pavcarousel.scss */
+.pavcarousel .carousel-controls .carousel-control {
+  left: auto;
+  bottom: auto;
+  z-index: 10;
+  background: #fff;
+  color: #DADADA;
+  border: 1px solid #DADADA;
+  text-shadow: none;
+  width: 30px;
+  height: 30px;
+}
+/* line 37, ../development/scss/pavcarousel.scss */
+.pavcarousel .carousel-controls .carousel-control.left {
+  left: 0px;
+}
+/* line 40, ../development/scss/pavcarousel.scss */
+.pavcarousel .carousel-controls .carousel-control.right {
+  right: 0px;
+}
+/* line 45, ../development/scss/pavcarousel.scss */
+.pavcarousel:hover .carousel-controls {
+  display: block;
+}

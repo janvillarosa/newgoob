@@ -1,0 +1,565 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 7, ../development/scss/pavdeals.scss */
+#productdeals .product-grid .row {
+  padding: 0;
+}
+
+/* line 10, ../development/scss/pavdeals.scss */
+.productdeals {
+  position: relative;
+  overflow: inherit;
+}
+
+/* line 14, ../development/scss/pavdeals.scss */
+.productdeals .nav-tabs {
+  border: 0;
+}
+
+/* line 18, ../development/scss/pavdeals.scss */
+.productdeals .pagination {
+  border-width: 1px 0 0;
+}
+
+/* line 22, ../development/scss/pavdeals.scss */
+.productdeals .product-filter {
+  padding: 0;
+  border-width: 0;
+  background: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+/* line 30, ../development/scss/pavdeals.scss */
+.list-deals .product-block .name {
+  min-height: 30px;
+}
+
+/* line 34, ../development/scss/pavdeals.scss */
+.list-deals .box-content {
+  border: 0;
+  margin: 0;
+}
+
+/* line 39, ../development/scss/pavdeals.scss */
+.productdeals .nav-tabs li a {
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+/* line 49, ../development/scss/pavdeals.scss */
+.productdeals .nav-tabs li a:hover,
+.productdeals .nav-tabs li a:focus {
+  border: 0;
+  background-color: #fff;
+}
+
+/* line 54, ../development/scss/pavdeals.scss */
+.productdeals .nav-tabs li.active a {
+  color: #000;
+}
+
+/* line 57, ../development/scss/pavdeals.scss */
+.group-deals .item-countdown {
+  text-align: center;
+}
+
+/* line 60, ../development/scss/pavdeals.scss */
+.sidebar .is-hidden {
+  display: none;
+}
+
+/* line 63, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .product-block {
+  padding: 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+/* line 67, ../development/scss/pavdeals.scss */
+.productdeals .last .product-block {
+  border: 0;
+}
+
+/* line 70, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .image {
+  width: 100%;
+  display: block;
+}
+
+/* line 75, ../development/scss/pavdeals.scss */
+.sidebar .deal {
+  padding-top: 5px;
+}
+
+/* line 78, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .product-grid .row {
+  border: 0;
+}
+
+/* line 82, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .product-grid .product-meta {
+  min-height: inherit;
+}
+
+/* line 86, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .item-countdown {
+  border: 0;
+}
+
+/* line 90, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .item-countdown .countdown_num {
+  width: 28px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+
+/* line 97, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .product-grid .row.last .last .product-block {
+  padding: 0;
+}
+
+/* line 101, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .deal-collection, .sidebar .productdeals .action {
+  display: none;
+}
+
+/* line 105, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .product-block {
+  padding: 0;
+}
+
+/* line 109, ../development/scss/pavdeals.scss */
+.sidebar .productdeals .product-block .name {
+  text-align: center;
+}
+
+/* line 113, ../development/scss/pavdeals.scss */
+.sidebar .deal_detail .price {
+  display: inline;
+}
+
+/* line 117, ../development/scss/pavdeals.scss */
+.deal_detail {
+  clear: both;
+  font-style: normal;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 123, ../development/scss/pavdeals.scss */
+.productdeals .deal_detail {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* line 128, ../development/scss/pavdeals.scss */
+.deal_detail ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* line 132, ../development/scss/pavdeals.scss */
+.deal_detail ul li {
+  margin: 0;
+  padding: 3px 0;
+}
+
+/* line 137, ../development/scss/pavdeals.scss */
+.deal_detail ul li span {
+  width: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 144, ../development/scss/pavdeals.scss */
+.deal {
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+/* line 149, ../development/scss/pavdeals.scss */
+.deal_detail .deal_detail_num {
+  color: #000000;
+  font-weight: bold;
+  width: auto;
+}
+
+/* line 155, ../development/scss/pavdeals.scss */
+.deal_detail_num .price {
+  color: #000000;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 162, ../development/scss/pavdeals.scss */
+.deal_detail_num span {
+  margin: 0;
+}
+
+/* Countdown */
+/* line 167, ../development/scss/pavdeals.scss */
+.productdeals .timeleft {
+  background-color: #3b5871;
+  background-image: linear-gradient(to bottom, #3b5871, #0a263d);
+  background-image: -webkit-linear-gradient(to bottom, #3b5871, #0a263d);
+  background-image: -moz-linear-gradient(to bottom, #3b5871, #0a263d);
+  background-image: -ms-linear-gradient(to bottom, #3b5871, #0a263d);
+  background-image: -o-linear-gradient(to bottom, #3b5871, #0a263d);
+  min-height: 40px;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  text-align: center;
+}
+
+/* line 180, ../development/scss/pavdeals.scss */
+.productdeals .timeleft h3 {
+  color: #FFFFFF!important;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  font-family: verdana,arial;
+  font-size: 19px;
+  font-weight: normal;
+}
+
+/* line 189, ../development/scss/pavdeals.scss */
+.productdeals .item-countdown {
+  padding-bottom: 20px;
+}
+
+/* line 192, ../development/scss/pavdeals.scss */
+.productdeals .item-countdown ul {
+  text-align: center;
+}
+
+/* line 195, ../development/scss/pavdeals.scss */
+.item-countdown ul li {
+  display: inline-block;
+  margin: 0px 8px 0 0;
+  padding: 7px;
+  height: 45px;
+  width: 45px;
+}
+
+/* line 203, ../development/scss/pavdeals.scss */
+.productdeals .item-countdown ul li:first-child div {
+  /*  color: #d43b3b; */
+}
+
+/* line 206, ../development/scss/pavdeals.scss */
+.productdeals .item-countdown ul li.last {
+  margin: 0px;
+}
+
+/* line 209, ../development/scss/pavdeals.scss */
+.deal-qty-box {
+  border-top: 1px solid #ebebeb;
+  padding-top: 20px;
+  margin-top: 140px;
+}
+
+/* line 214, ../development/scss/pavdeals.scss */
+.productdeals .item-countdown ul li div, .deal-qty-box {
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #666;
+}
+
+/* line 221, ../development/scss/pavdeals.scss */
+.productdeals .timeleft {
+  background-color: #6B9E1B;
+  background-image: linear-gradient(to bottom, #7aa832, #4b6f13);
+}
+
+/* line 227, ../development/scss/pavdeals.scss */
+.deal-collection {
+  margin: 10px 0;
+}
+
+/*Carousel css*/
+/* line 232, ../development/scss/pavdeals.scss */
+.productdeals .box-heading {
+  background: #000;
+  color: #fff;
+  z-index: 10;
+}
+
+/* line 237, ../development/scss/pavdeals.scss */
+.productdeals .product-label-special {
+  left: auto;
+  right: -26px;
+}
+/* line 515, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-label-special {
+  right: auto;
+  left: auto;
+}
+/* line 522, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-label-special {
+  left: -26px;
+  right: auto;
+}
+
+/* line 241, ../development/scss/pavdeals.scss */
+.productdeals .box-heading:before {
+  background: url("../image/bg-best.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  height: 93px;
+  position: absolute;
+  right: -5px;
+  top: -6px;
+  width: 93px;
+}
+
+/* line 251, ../development/scss/pavdeals.scss */
+.productdeals .carousel-control {
+  color: #fff;
+  z-index: 20;
+}
+
+/* line 255, ../development/scss/pavdeals.scss */
+.productdeals .image {
+  float: left;
+  overflow: visible;
+  border-right: 1px solid #ebebeb;
+}
+/* line 415, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .image {
+  float: right;
+}
+
+/* line 260, ../development/scss/pavdeals.scss */
+.productdeals .product-meta {
+  overflow: hidden;
+  padding: 20px 0 0;
+}
+
+/* line 265, ../development/scss/pavdeals.scss */
+.productdeals .product-meta .left {
+  margin-bottom: 125px;
+}
+
+/* line 268, ../development/scss/pavdeals.scss */
+.productdeals .product-meta .action {
+  /* position: inherit; */
+}
+
+/* line 271, ../development/scss/pavdeals.scss */
+.productdeals .product-block .action {
+  opacity: 0;
+  top: auto;
+  bottom: 121px;
+  transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+}
+
+/* line 281, ../development/scss/pavdeals.scss */
+.productdeals .product-block:hover .action {
+  opacity: 1;
+}
+
+/* line 284, ../development/scss/pavdeals.scss */
+.productdeals .product-block .group-item {
+  display: inline-block;
+}
+
+/* line 288, ../development/scss/pavdeals.scss */
+.productdeals .group-action .cart {
+  float: none;
+}
+
+/* line 291, ../development/scss/pavdeals.scss */
+.productdeals .group-action .cart input {
+  background-color: #7eac22;
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  text-indent: 0;
+  width: auto;
+}
+
+/* line 300, ../development/scss/pavdeals.scss */
+.productdeals .group-action .group-action-inner {
+  background-color: #7eac22;
+  bottom: 30px;
+  height: 33px;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  right: -100%;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+}
+
+/* line 315, ../development/scss/pavdeals.scss */
+.productdeals .product-block:hover .group-action .group-action-inner {
+  right: 0;
+  opacity: 1;
+  transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+}
+
+/* line 325, ../development/scss/pavdeals.scss */
+.productdeals .group-action .wishlist,
+.productdeals .group-action .compare {
+  float: left;
+  width: 19.5%;
+  border-left: 1px solid #8cbc2b;
+  border-right: 1px solid #6d951d;
+}
+
+/* line 331, ../development/scss/pavdeals.scss */
+.productdeals .group-action .cart {
+  float: left;
+  border-left: 1px solid #8cbc2b;
+  width: 56%;
+}
+
+/* line 342, ../development/scss/pavdeals.scss */
+.productdeals .group-action .wishlist a,
+.productdeals .group-action .compare a,
+.productdeals .group-action .cart .button {
+  background-image: url("../image/default/icon-action.png");
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 100%;
+}
+
+/* line 349, ../development/scss/pavdeals.scss */
+.productdeals .group-action .wishlist a,
+.productdeals .group-action .compare a {
+  overflow: hidden;
+  text-indent: -9999em;
+  padding: 0;
+}
+
+/* line 354, ../development/scss/pavdeals.scss */
+.productdeals .group-action .wishlist a {
+  background-position: 55% 12px;
+}
+
+/* line 357, ../development/scss/pavdeals.scss */
+.productdeals .group-action .compare a {
+  background-position: 58% -52px;
+}
+
+/* line 360, ../development/scss/pavdeals.scss */
+.productdeals .group-action .cart .button {
+  background-position: 14% -125px;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+/* line 366, ../development/scss/pavdeals.scss */
+.productdeals .group-action .icon-plus {
+  background-color: #F2711F;
+  bottom: 0;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 30px;
+}
+
+/* line 381, ../development/scss/pavdeals.scss */
+.productdeals .carousel-controls {
+  right: 50px;
+  top: 13px;
+  position: absolute;
+}
+
+/* line 387, ../development/scss/pavdeals.scss */
+.productdeals .carousel-controls .left {
+  left: auto;
+  right: 0;
+}
+
+/* line 392, ../development/scss/pavdeals.scss */
+.productdeals .carousel-controls .right {
+  left: auto;
+  right: -20px;
+}
+
+/* line 397, ../development/scss/pavdeals.scss */
+.productdeals .product-block:hover .group-action .icon-plus {
+  background-color: #7eac22;
+}
+
+/* #1 start edit code */
+/* line 403, ../development/scss/pavdeals.scss */
+.productdeals .product-filter > div {
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 1px solid #CBCBCB;
+  padding: 10px;
+  background: #fff;
+}
+
+/* css filter */
+/* line 413, ../development/scss/pavdeals.scss */
+.product-lst {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* line 418, ../development/scss/pavdeals.scss */
+.productdeals .product-lst .product-inner .name {
+  background-color: #42442;
+  margin: 0px 0px 0px;
+  line-height: 30px;
+  position: relative;
+}
+
+/* line 425, ../development/scss/pavdeals.scss */
+.product-empty {
+  color: red;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* #1 end edit code */

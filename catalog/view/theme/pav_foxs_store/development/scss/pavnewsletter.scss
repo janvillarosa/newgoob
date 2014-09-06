@@ -1,0 +1,53 @@
+@import "compass";
+
+@import "vars/bootstrap";
+@import "vars/opencart";
+
+
+@import "mixins/bootstrap";
+@import "mixins/app";
+ 	
+.content{
+	.wapper{
+		@include rtl-border-right(1px solid $border-color);
+    margin: 0;
+    padding: 20px;
+    overflow: inherit;
+
+		> div{
+			@include rtl-float-left();
+		}
+	}
+	.box{
+	.box-heading{
+		@include rtl-margin-right(25px);
+	padding: 6px 40px;
+		}
+	}
+	.title{
+		font-size: $font-size-base + 5;
+		font-weight: 100;
+		text-transform: uppercase;
+	}
+	.input-form{
+		input{
+			@include box-shadow(none);
+			color: $footer-color;
+			font-size: $font-size-base - 3;
+			background:url('#{$image-theme-path}icon-mail.png') 10px no-repeat #f4f4f4;
+			padding-left:30px;
+		}
+	}
+	.form-control {
+	
+	}
+	.btn-submit{
+		margin-top: 10px;
+	}
+	.valid{
+ 	position: absolute;
+ 	@include rtl-right(74px);
+    top: -39px;
+    width: 58%;
+	}
+}	

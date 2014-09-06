@@ -1,0 +1,112 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : pav !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : box!default;
+$block-selector          : box !default;
+$block-heading-selector  : box-heading !default;
+$block-content-selector  : box-content !default;
+
+/**
+ * Product Item Selectors
+ */
+
+//------- Path Variables
+$image-path:                   "images/"!default;
+$font-custom-path:             "../font/"!default;
+$image-theme-base-path:        "../image/"!default;
+$image-base-path:              "../../../img/"!default;
+$image-skin-path:              "../../img/icon/"!default;
+$image-module-path:            "../../../img/icon/"!default;
+$module-path:                  "../../../modules/"!default;
+
+$image-theme-path:                   '../image/' !default;
+
+$theme-font-path :          	 "../fonts/" !default;
+
+
+/***********************************************************************/
+// some basic colors
+
+$sky:                  			    #7bbd42 !default;  // Skin sky
+$blue:                              #6087D2 !default;  // Skin blue
+$yellow:                  			#ffc801 !default;  // Skin yellow
+$coral:								#EE6C92 !default;  // Slin Coral
+$rico:								#51BAA9 !default;  // Skin Rico
+$green:                 			#29C76A !default;  // Skin Green
+$red:                   			#e75641 !default;  // Skin Red
+$pink:                  			#c3325f !default;
+$white:			 				    #FFFFFF !default;
+$black:							    #111 !default;
+$cyandark:   						#4e4d49 !default;
+$orange:                			#df995e !default;
+$aqua: 								#75aab8 !default;
+$turquoise:                         #4ACFD4 !default; // label new
+$nav-border-color-hover:            #e2e2e2 !default;
+$golden-poppy:                      #F2BE01 !default;
+$valencia:      					#D44A4A !default;
+$tundora:                           #777777 !default;  // Topbar + Vertical Menu Content
+$wild-sand:                         #ffffff !default;  // Background Body - default
+$silver:                            #c8c8c8 !default;  
+//------- Themes colors
+$red-light:            				#ff9999!default;
+$yellow-light:           			#ffdc73!default;
+$nocolor:							transparent!default;
+
+
+// some basic font family
+// ========================================================================
+$font-tamoha: "tahoma";
+$font-arial: "Arial";
+
+
+// Variables paths 
+// ========================================================================
+
+$font-family:			 			 "brandon-light", sans-serif !default;
+$font-family-secondary :             "brandon_regular", sans-serif !default;
+$font-family-tertiary  :             "bebas_neue" !default;
+$font-family-senary    : 		 	 "bebas_neue" !default;
+$font-family-septenary : 			 "tahoma" !default; 
+ 
+$font-icon-family 	   : 			 "FontAwesome" !default;
+
+
+
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$body-bg:                           #ebebeb!default;
+$theme-color:  				        $black !default; 
+
+$theme-color-default : 			    #f7941d !default;
+$theme-color-primary :				#a0a0a0 !default; //Color text default
+$theme-color-secondary:             #292929 !default;   
+$theme-color-tertiary:              #FFFFFF !default;
+
+
+
+
+$font-body-family	   : $font-family!default;
+$font-headding-family  : $font-family-secondary !default;
+$font-menu-family      : $font-family-secondary !default; 
+$font-highlighted-family: $font-family-secondary !default;
+$font-weight-base: 300!default;
+
+$theme-bg-default		: $gray-lighter!default; 
+$theme-bg-secondary 	 : $red!default; // using variable  for Theme  Skin 
+$theme-bg-threedary  	 : $brand-warning!default; // using skin product list
+
+  
+$border-color  : #ebebeb !default;
+
+$table-bg-color	:  #ebebeb !default;
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;

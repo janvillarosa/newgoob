@@ -1,0 +1,162 @@
+/**
+ * BASE CSS STYLES
+ */
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: $body-bg;
+  color: $text-color;
+  font-size: $font-size-base;
+  margin: 0px;
+  padding: 0px;        
+  overflow-x:hidden;
+  font-weight: $font-weight-base;
+  line-height: 25px;
+
+}
+
+ul{
+    margin: 0;
+    padding:0;
+    li{
+        list-style: none
+    }
+}
+
+///******
+/* links style */
+ul{
+    &.links {    
+        margin: 0;
+        padding: 0;  
+        width: 100%;  
+        li{
+            display: inline;        
+           /*  line-height: normal;    */  
+            a{
+                margin:0 $padding-base-vertical;
+                color: $footer-color;  
+                &:hover{
+                    color: $theme-color-default;    
+                }      
+            } 
+            .fa,.icon{
+                margin-right:10px;
+            }       
+        }               
+    }
+    &.list{
+        li{
+            list-style: none;
+           padding: 6px 0;
+           a{
+                color: $footer-color; 
+                &:hover{
+                    color: $theme-color-default;    
+                }  
+            }
+        }    
+    }
+    &.my-account{
+        li{
+            padding:6px 0;
+            list-style: disc;
+            margin-left: 14px;
+        }
+    }
+    &.inline{
+        li {
+             float: left
+        }
+    }
+}
+.tree-menu {
+        > ul > li {
+            position: relative;
+            border-bottom: 1px solid $border-color;
+            @include transition(all 0.35s);
+            .caret,.head a{ 
+                position: absolute;
+                @include rtl-right( 5px );
+                top: 15px;
+                background-color:nocolor;
+                color:black;
+                padding:0 8px;
+                @include rounded-corners(10%);  
+                .icon-collapse{
+                    background: url('#{$image-theme-path}icon-cat-min.png') center center no-repeat;
+                     @include size(14px, 14px);
+                     display: block;
+                }            
+                &.collapsed .icon-collapse{
+                    background: url('#{$image-theme-path}icon-cat.png') center center no-repeat;
+                     @include size(14px, 14px);
+                     display: block;
+                } 
+                .icon-collapse.icon-active{
+                    background: url('#{$image-theme-path}icon-cat-min-white.png') center center no-repeat;
+                }            
+                &.collapsed .icon-collapse.icon-active{
+                    background: url('#{$image-theme-path}icon-cat-white.png') center center no-repeat;
+                }                           
+            }
+            &:last-child > a{
+                border:none;
+            }  
+        + li {
+             
+        }
+        > a {
+            display: block;
+            @include transition(all 0.35s);
+            padding: 10px;
+            &:hover,&:focus{                    
+               padding-left: 15px;
+            }
+           
+        }
+
+        ul {
+           // display: none;
+        }
+            a.active {
+                font-weight: bold;
+                color: $theme-color;
+            + ul {
+                display: block;
+                padding: 0 0 10px 10px;
+            }
+        }
+        ul > li {
+            > a {
+                   
+                    display: block;
+                    padding: 5px 0;
+                    @include rtl-padding-left(20px);
+                    color: $gray;
+                    font-size: $font-size-base - 2;  
+                    &:hover{
+                        color: $theme-color;
+                    }
+                &.active {
+                    font-weight: bold;
+                    color:$megamenu-sub-link-hover-color;  
+                }
+            }
+
+        }
+    }
+}
+a:hover{
+    color: $theme-color;
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+}
+
+label{
+    font-weight: 400;
+}

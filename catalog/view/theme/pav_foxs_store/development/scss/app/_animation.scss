@@ -1,0 +1,140 @@
+#header-top{
+    .pav-megamenu .navbar-nav > li > a{
+        @include transition(all 0.35s);
+    }
+    .main-menu.mainnav-v2 .quick-action > div{
+        @include transition(all 0.35s);
+    }
+    
+}
+.product-block {
+    .pav-colorbox , .product-zoom {
+        @include opacity(0);
+        visibility: hidden;   
+        position: absolute; 
+        top: 50%;
+        bottom: 50%;
+        @include transition(all 0.3s ease 0s);
+        z-index: 20;
+    }
+  .action {
+    @include opacity(0);
+    @include transition (all 0.5s ease 0s);
+
+   /*  @include rtl-right(100px); */
+  }
+    .swap.image{
+        .img{
+            position: relative;
+            display: block;
+        }
+        .hover-image{
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            @include translate(-100%, 0);
+            width: 100%;
+        } 
+        &:hover{
+            .hover-image{
+                @include translate( 0, 0 );
+            }
+        }
+    }
+    .image{
+        @include transition(all 0.35s);
+    }
+    &:hover {
+      .product-zoom, .pav-colorbox{
+        @include opacity(1);
+        visibility: visible;            
+      }
+      .product-zoom {
+        @include rtl-margin(-10px,-40px,-0,0);
+      }
+      .pav-colorbox {
+        @include rtl-margin(-10px,0,0,-35px);
+      }
+      .action{
+        @include opacity(1);
+        /* @include rtl-right(0); */
+      }
+    }
+	.image:hover {
+		.product-zoom, .pts-atchover{
+            @include opacity(1);
+            visibility: visible;            
+        }
+	}
+}
+
+.pavo-banners{
+    .img1{
+        .title{
+            @include transition(all 0.35s);
+            letter-spacing: 0px;
+        }
+        img{
+            @include transition(all 0.35s);
+
+        }
+        &:hover{
+            .title{
+                letter-spacing: 3px;
+            }
+            img{
+                @include scale(1.2);
+            }
+        }
+    }
+}
+.sidebar{
+    .product-block{
+        .img, .hover-image{
+            @include transition(none);
+        }
+        .rating, .product-rating, .norating{
+                display: none;
+            }
+        &:hover{
+            .rating, .product-rating, .norating{
+                display: none;
+            }
+            .price{
+                display: block;
+               left: 0;
+            }
+            .hover-image{
+                display: none;
+            }
+            .img{
+                display: block;
+            }
+        }    
+    }
+}
+/*  .mask{
+    background:-moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+   display: block;
+   position: absolute;
+   transition: all 0.2s linear 0s;
+   height: 0;
+   top: 0;
+   left: 0;
+} */
+.blog-body:hover{
+    
+}
+  
+/* .latest_blog .pavblog-latest .blog-body{
+  transform: matrix(1, 0, 0, 1, -727.5, 0);
+   @include opacity(0);
+  @include transition(all 0.4s ease-in-out 0s);
+}
+.latest_blog .pavblog-latest .blog-body:hover{
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  @include opacity(1);
+  background: $black;
+
+} */
